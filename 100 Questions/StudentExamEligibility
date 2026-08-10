@@ -1,0 +1,4 @@
+const prompt = require("prompt-sync")();
+
+const attendancePercentage = Number(prompt("Enter a student attendance percentage: "));
+const averageScore = Number(prompt("Enter student average score: "));
