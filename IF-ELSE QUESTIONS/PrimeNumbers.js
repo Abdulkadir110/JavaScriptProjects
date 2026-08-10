@@ -12,8 +12,10 @@ for (let index = 1; index <= number; index++) {
 
 if (number === 0 || number === 1) {
     console.log("Neither");
-} else if (count === 2) {
+} 
+else if (count === 2) {
     console.log("Prime");
-} else {
+}
+else {
     console.log("Composite");
 }
