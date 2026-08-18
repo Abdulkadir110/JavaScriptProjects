@@ -13,7 +13,7 @@
 //
 /////////-----------WAYS---IN-- DECLARING----FUCNTIONS-----------------//////////////
 ////////----------------------Function Expression----------------------/////////////
-//function firstFunction() {
+//function firstFunction() {node
 //    function secondFunction(){}
 //    secondFunction();
 //}
@@ -37,7 +37,7 @@
 //    for(let number of numbers){
 //        if(number % 2 === 0){
 //            newArray.push(number);
-
+//
 //        }
 //    }
 //    return newArray;
@@ -47,39 +47,31 @@
 
 //////------------TYPES---OF---FUNCTIONS--------------------------//////////
 //////----------------------Arrow Functions-----------------------/////////
-//let numbers = [1,2,3,4,5,6,7,8]
-//
-//const getEvenNumbers = (array) =>{                            
-//    let newArray = [];
-//    for(let number of numbers){
-//        if(number % 2 === 0){
-//            newArray.push(number);
-//
-//        }
-//    }
-//    return newArray;
-//}
-//
-//console.log(getEvenNumbers(numbers));
-//
+let numbers = [1,2,3,4,5,6,7,8]
+
+const getEvenNumbers = (array) =>{                            
+    let newArray = [];
+    for(let number of numbers){
+        if(number % 2 === 0){
+            newArray.push(number);
+
+        }
+    }
+    return newArray;
+}
+
+console.log(getEvenNumbers(numbers));
+
+
+
 //////----------------------Nested Functions-----------------------/////////
-//function calculate(outerNumber) {
-//    function add(){
-//        let innerNumber = 3;
-//        return innerNumber + outerNumber
-//    }
-//    return add();
-//}
-//
-//console.log(calculate(4))
+function calculate(outerNumber) {
+    function add(){
+        let innerNumber = 3;
+        return innerNumber + outerNumber
+    }
+    return add();
+}
 
-
-
-
-
-
-
-
-
-
+console.log(calculate(4))
 
