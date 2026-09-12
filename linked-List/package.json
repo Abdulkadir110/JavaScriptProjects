@@ -1,0 +1,19 @@
+{
+  "name": "javascripttask",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "repository": {
+    "type": "git",
+    "url": "Abdulkadir110"
+  },
+  "license": "ISC",
+  "author": "\"\"",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
