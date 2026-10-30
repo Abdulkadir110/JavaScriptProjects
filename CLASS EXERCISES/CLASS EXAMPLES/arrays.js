@@ -183,11 +183,28 @@
 // console.log(countWords(["a", "b", "a"]))
 
 
-const student = {
-    name : "Abdulkadir",
-    age : 21,
-    course : "Computer Science",
-    gender : "Male",
-    hobbies: ["reading", "coding", "gaming"],
-    isBlack: true
-}
+// const student = {
+//     name : "Abdulkadir",
+//     age : 21,
+//     course : "Computer Science",
+//     gender : "Male",
+//     hobbies: ["reading", "coding", "gaming"],
+//     isBlack: true
+// }
+
+// student.name = "Opeyemi" // update
+// console.log(student.hobbies[2]) // to access an element in the object property called hobbies
+
+array = [1, 2, 3, 4, 5]
+// let newArray = []
+// array.forEach((element) => {
+//     newArray.push(element * 2)
+// })
+// console.log(newArray)
+
+// let numbers =array.map((number) => (number * number)); // returns a new array
+// let numbers = array.map((number) => {
+//     return number * number;
+// });
+let numbers = array.map(number => number * number);
+console.log(numbers)
