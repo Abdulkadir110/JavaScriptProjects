@@ -12,13 +12,13 @@
 // console.log(queue)
 // console.log(queue.length)
 
-const q = ["Ada", "Tunde"]
-q.push("Zainab")
-console.log(q.shift())
-q.unshift("Ife")
-console.log(q)
-console.log(q.pop())
-console.log(q)
+// const q = ["Ada", "Tunde"]
+// q.push("Zainab")
+// console.log(q.shift())
+// q.unshift("Ife")
+// console.log(q)
+// console.log(q.pop())
+// console.log(q)
 
 // const names = ["Ada", "Tunde", "Zainab"]
 // console.log(names.includes("Tunde"))
@@ -181,3 +181,13 @@ console.log(q)
 // }
 
 // console.log(countWords(["a", "b", "a"]))
+
+
+const student = {
+    name : "Abdulkadir",
+    age : 21,
+    course : "Computer Science",
+    gender : "Male",
+    hobbies: ["reading", "coding", "gaming"],
+    isBlack: true
+}
